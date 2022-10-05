@@ -20,6 +20,48 @@
                 "I will be going through the stop by step basis on how I am making this To do list and trying to figure out the things inside as I go and explianing my actions along the way.\r\n"
             ],
             "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "---\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "to begin with right now I am wanting to creat a plan of what I want to have within my too do list.\r\n\r\nI want this to have :\r\n\r\n- interactive buttons to type out my list \r\n\r\n- A way to edit and delete my lists so I can remove or rename my taks \r\n\r\n- Add a **new* feature to the list\r\n\r\n- have a estimated time tracker or have a countdown to when this should be done ??\r\n\r\n-  (possible) date function \r\n\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "for the styling of my application :\r\n \r\n - I wish for my app to have a crey sleak and rounded appearence for my end result , where each part of the listing and the buttons wil be rounded and smooth instead of a rough and stright edged approach since this is esier on the eyes.\r\n\r\n - I think also the look and the colour shoul be in a more darkened colour pallet since this will be good for user ability for all aspects of the day and also esier on the eyes , this will follow with soft splashes of colour around the interactive areas.\r\n\r\nThis will be able to give a good reflection of both function and style.\r\n\r\n\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "---"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "## Creating the foundations in HTML     "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                ""
+            ],
+            "outputs": []
         }
     ]
 }
