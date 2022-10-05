@@ -1,0 +1,18 @@
+:root {
+ --dark: #374151;
+ --darker: #282f3a;
+ --darkest: #1a1e25;
+ --grey: #646363;
+ --light: #eee;
+ --pink: #ce96df;
+ --prurple: #8946aa;
+}
+
+* {
+
+box-sizing: border-box;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif , sans-serif;
+
+}
+
