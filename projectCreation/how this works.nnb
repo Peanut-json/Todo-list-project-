@@ -31,7 +31,7 @@
         {
             "language": "markdown",
             "source": [
-                "to begin with right now I am wanting to creat a plan of what I want to have within my too do list.\r\n\r\nI want this to have :\r\n\r\n- interactive buttons to type out my list \r\n\r\n- A way to edit and delete my lists so I can remove or rename my taks \r\n\r\n- Add a **new* feature to the list\r\n\r\n- have a estimated time tracker or have a countdown to when this should be done ??\r\n\r\n-  (possible) date function \r\n\r\n"
+                "to begin with right now I am wanting to creat a plan of what I want to have within my too do list.\r\n\r\nI want this to have :\r\n\r\n- interactive buttons to type out my list \r\n\r\n- A way to edit and delete my lists so I can remove or rename my taks \r\n\r\n- Add a **new** feature to the list\r\n\r\n- have a estimated time tracker or have a countdown to when this should be done ??\r\n\r\n-  (possible) date function \r\n\r\n"
             ],
             "outputs": []
         },
@@ -53,6 +53,13 @@
             "language": "markdown",
             "source": [
                 "## Creating the foundations in HTML     "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "The first tasks when creating a any project using HTML , CSS and java is to stat by creaing **main** files , this is where most of the stuff will be put into the application , the framework skeleton , anything else that needs to be placed in can be done in another file and then linked using the script src = command.\r\n\r\nthe basic framework can be inserted via a command using emmit , this is what I did for my beginning process for my framework. I had used the emmit tool in order to create my standard framework for a HTML file and then from there proceeded with then adding my basic UI elemetns.\r\n\r\n"
             ],
             "outputs": []
         },
