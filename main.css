@@ -2,7 +2,7 @@
  --dark: #374151;
  --darker: #282f3a;
  --darkest: #1a1e25;
- --grey: #646363;
+ --grey: #767272;
  --light: #eee;
  --pink: #ce96df;
  --prurple: #8946aa;
@@ -70,6 +70,54 @@ input, button {
 #new-task-submit {
 
     color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 800;
+    background-image: linear-gradient(to right, var(--pink) ,var(--prurple));
     
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+#new-task-submit:hover {
+    opacity: 0.8s;
+
+}
+
+#new-task-submit:active {
+    opacity: 0.6s;
     
 }
+
+main{
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-list {
+    padding: 1rem;
+}
+
+.task-list h2 {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--grey);
+    margin-bottom: 1rem;
+
+}
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, var(--dark) ,var(--darkest));
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+
