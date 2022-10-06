@@ -120,7 +120,7 @@ main{
 #tasks .task {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(to right, var(--dark) ,var(--darkest));
+    background-color: var(--darkest);
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
@@ -180,7 +180,7 @@ main{
 
 .task .actions .delete {
     
-    background-image: linear-gradient(to right, var(--pink) ,var(--prurple));
+    background-image:linear-gradient(to right,var(--orange), var(--pink) ,var(--prurple));
     
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
