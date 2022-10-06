@@ -59,6 +59,13 @@
         {
             "language": "markdown",
             "source": [
+                ""
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
                 "The first tasks when creating a any project using HTML , CSS and java is to stat by creaing **main** files , this is where most of the stuff will be put into the application , the framework skeleton , anything else that needs to be placed in can be done in another file and then linked using the script src = command.\r\n\r\nthe basic framework can be inserted via a command using emmit , this is what I did for my beginning process for my framework. I had used the emmit tool in order to create my standard framework for a HTML file and then from there proceeded with then adding my basic UI elemetns.\r\n\r\n"
             ],
             "outputs": []
