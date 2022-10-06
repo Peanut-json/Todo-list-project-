@@ -42,7 +42,8 @@ header h1 {
 }
  
 #new-task-form {
-    display: flex;
+
+    display:flex;
 }
 
 input, button {
@@ -52,12 +53,23 @@ input, button {
     background:none;
 }
 
-#new-task-input {
+#new-task-input{
     flex: 1 1 0%;
-    background-color: var(--darker);
+    background-color: var(--darkest);
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
-
+    color: var(--light);
+    font-size: 1.25rem;
 }
 
+#new-task-input::placeholder {
+    color: var(--grey);
+}
+
+#new-task-submit {
+
+    color: var(--pink);
+    
+    
+}
