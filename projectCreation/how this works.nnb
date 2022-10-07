@@ -73,6 +73,33 @@
         {
             "language": "markdown",
             "source": [
+                "After creating my template I started to begin with linking a stylesheet to the HTML sorce , in HTML link types create a link to one document to another and this then if something is refrenced in one document can also be refrenced and used in the other , this is like a dynamic import and export type. \r\n\r\nThey carry out this operation with either a command of:\r\n\r\n- a\r\n- area\r\n- form \r\n- link\r\n\r\nall these have the sourouning symbols of <> within thier **keyword**. \r\n\r\nFor my particular case I chose **link** whitch is a external recorce link element. What **link** dose that makes it unique is creates a relationship with another document and a external recorce , This element is commonely used for stylesheets but it can also help with the creation of sight icons and other images.\r\n\r\nall links to stylesheets must be done within the < head > of a HTML document. When refrencing the rel in the command this is stadning for **relationship** this value shows how the link is being made since there are other types of link sthat can be made within a HTML.\r\n\r\n\r\nIn the same line the use of **href** is ued also with the value of the main.css file , this then creates a url link and helps with the lin ing of the CSS file to the HTML file for the use of stylesheets. This simply gives location of the link and creates a relationship to the files.\r\n\r\n "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "<link rel=\"stylesheet\" href=\"main.css\" />\r\n\r\n// this is a link using a relationship to the stylesheet and then the adress to where the link will be linking to , whitch will be the main.css file.\r\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.error",
+                            "value": {
+                                "name": "Error",
+                                "message": "Failed to generate code object, \nundefined\n                     ^\n\nUnexpected token ';'",
+                                "stack": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "markdown",
+            "source": [
                 ""
             ],
             "outputs": []
