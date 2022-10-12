@@ -1,3 +1,4 @@
+
 window.addEventListener("load", function() {
 
     const form = document.querySelector("#new-task-form");
@@ -70,22 +71,20 @@ window.addEventListener("load", function() {
         });
 
         task_delete_el.addEventListener("click", () => {
-            if(list_el.removeChild(task_el)){
-                confirm("are you sure?");
-            } else {
-                return;
-            }
-        
+         let result  = confirm("are you sure?")
+
+         if(result) {
+            list_el.removeChild(task_el);
+         } else {
+
+            return;
+         };
+
+         window.localStorage.setItem('' ,JSON.stringify())
+         
+
         });
-
-
-
-
-
     })
-
-
-
 });
 
 
