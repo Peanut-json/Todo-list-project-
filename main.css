@@ -128,6 +128,11 @@ main {
 
 }
 
+
+#tasks .task .content {
+    flex: 2 2 0%;
+}
+
 #tasks .task .content .text {
     color: var(--light);
     font-size: 1.125rem;
