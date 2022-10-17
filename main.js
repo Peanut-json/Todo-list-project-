@@ -17,6 +17,7 @@ window.addEventListener("load", function() {
             return;
         }
 
+
         const task_el = document.createElement("div");
         task_el.classList.add("task");
 
@@ -79,10 +80,6 @@ window.addEventListener("load", function() {
 
             return;
          };
-
-         window.localStorage.setItem('' ,JSON.stringify())
-         
-
         });
     })
 });
